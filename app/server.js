@@ -9,7 +9,7 @@ const app = express();
 const server = http.Server(app);
 const io = require('socket.io')(http);
 
-app.set("port", 5000);
+app.set("port", PORT);
 // app.use("/static", express.static(path.dirname(__dirname) + "/static"));
 app.use(express.static('public'));
 app.get("/", (request, response) => {
