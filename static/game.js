@@ -1,4 +1,4 @@
-const socket = io.connect();
+const socket = io('https://testoviyserver.herokuapp.com/');
 
 const WINDOW_WIDTH = 800;
 const WINDOW_HIGHT = 600;
